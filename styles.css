@@ -23,10 +23,20 @@
 body {
     font-family: 'Open Sans', sans-serif;
     margin: 0px;
+    color: var(--blue-gray)
 }
 
 hr {
     margin: 2rem;
+}
+
+.heading{
+    color: var(--blue-gray)
+}
+
+.margin-medium{
+    margin: 2rem;
+
 }
 
 .container {
@@ -42,6 +52,9 @@ hr {
 .links {
     text-decoration: none;
     padding: 0.5rem 1.5rem;
+    margin-right: 1rem;
+    /* margin-top: 1rem;
+    margin-bottom: 1rem; */
 }
 
 .link-primary {
@@ -53,7 +66,8 @@ hr {
 .link-secondary {
     color: var(--primary-color);
     border-radius: 0.75rem;
-    border: 1.5px solid var(--primary-color);
+    border: 1px solid var(--primary-color);
+    /* font-weight: bold; */
 }
 
 .list-non-bullet {
@@ -69,8 +83,10 @@ hr {
     background-color: var(--primary-color);
     color: white;
     padding: 1rem;
-    border-top-left-radius: 1rem;
-    border-bottom-right-radius: 1rem;
+    /* border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem; */
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
 }
 
 .navigation .nav-brand {
@@ -96,7 +112,7 @@ hr {
 }
 
 .hero .hero-image {
-    max-width: 450px;
+    max-width: 350px;
     display: block;
     margin: auto;
 }
@@ -128,8 +144,10 @@ hr {
     background-color: var(--primary-color);
     padding: 2rem 0rem;
     text-align: center;
-    border-top-left-radius: 2rem;
-    border-bottom-right-radius: 2rem;
+    /* border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem; */
+    border-top-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
     color: white;
 }
 
@@ -139,4 +157,10 @@ hr {
 
 .footer ul{
     padding-inline-start: 0px ;
+}
+
+.footer .footer-header{
+    text-align: left;
+    font-weight: bold;
+    font-size: large
 }
