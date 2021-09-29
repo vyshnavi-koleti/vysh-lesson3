@@ -130,6 +130,9 @@ hr {
 
 .footer .links{
     color:white;
+    font-weight: bold;
+    font-size: large;
+
 }
 
 .footer ul{
@@ -139,5 +142,5 @@ hr {
 .footer .footer-header{
     text-align: left;
     font-weight: bold;
-    font-size: large
+    font-size: x-large;
 }
