@@ -4,20 +4,6 @@
     --primary-color: #14B8A6;
     --blue-gray: #475569;
     --true-gray: #E5E5E5;
-
-    /* 
-        #52525B gray
-        #57534E warm gray
-        #FB923C orange
-        #F59E0B amber
-        #FACC15 yellow
-        #84CC16 lime
-        #22D3EE cyan
-        #14B8A6 teal
-        #E5E5E5 true gray
-        #3475569 blue-gray
-
-    */
 }
 
 body {
@@ -39,22 +25,17 @@ hr {
 
 }
 
-.container {
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
-
 .container-center {
     max-width: 600px;
-    margin: auto;
+    margin: 1rem auto;
+    border-radius: 1rem;
+    padding: 1rem 1rem 2rem 1rem;
 }
 
 .links {
     text-decoration: none;
     padding: 0.5rem 1.5rem;
     margin-right: 1rem;
-    /* margin-top: 1rem;
-    margin-bottom: 1rem; */
 }
 
 .link-primary {
@@ -67,7 +48,7 @@ hr {
     color: var(--primary-color);
     border-radius: 0.75rem;
     border: 1px solid var(--primary-color);
-    /* font-weight: bold; */
+
 }
 
 .list-non-bullet {
@@ -83,8 +64,6 @@ hr {
     background-color: var(--primary-color);
     color: white;
     padding: 1rem;
-    /* border-top-left-radius: 1rem;
-    border-bottom-right-radius: 1rem; */
     border-top-right-radius: 1rem;
     border-bottom-left-radius: 1rem;
 }
@@ -144,8 +123,6 @@ hr {
     background-color: var(--primary-color);
     padding: 2rem 0rem;
     text-align: center;
-    /* border-top-left-radius: 2rem;
-    border-bottom-right-radius: 2rem; */
     border-top-right-radius: 2rem;
     border-bottom-left-radius: 2rem;
     color: white;
